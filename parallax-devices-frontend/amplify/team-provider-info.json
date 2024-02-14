@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-parallaxdevices-dev-112149-authRole",
+      "UnauthRoleArn": "arn:aws:iam::594309679149:role/amplify-parallaxdevices-dev-112149-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::594309679149:role/amplify-parallaxdevices-dev-112149-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-parallaxdevices-dev-112149-deployment",
+      "UnauthRoleName": "amplify-parallaxdevices-dev-112149-unauthRole",
+      "StackName": "amplify-parallaxdevices-dev-112149",
+      "StackId": "arn:aws:cloudformation:eu-west-1:594309679149:stack/amplify-parallaxdevices-dev-112149/3f944d20-cb2b-11ee-97fa-063736b62619",
+      "AmplifyAppId": "d2o064d2n4iqkp"
+    },
+    "categories": {
+      "auth": {
+        "parallaxdevices1dc16457": {}
+      }
+    }
+  }
+}
