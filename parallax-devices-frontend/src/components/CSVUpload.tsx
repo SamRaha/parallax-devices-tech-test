@@ -16,7 +16,7 @@ const Container = styled.div`
 `;
 
 interface ButtonProps {
-	help?: boolean;
+	$help?: boolean;
 }
 
 const Button = styled.button<ButtonProps>`
@@ -33,8 +33,8 @@ const Button = styled.button<ButtonProps>`
 		background-color: #0d5580;
 	}
 
-	${({ help }) =>
-		help &&
+	${({ $help }) =>
+		$help &&
 		css`
 			background-color: #fabc09;
 			color: #2a2a2a;
@@ -140,7 +140,7 @@ const CSVUpload: React.FC = () => {
 			<FileInput type="file" accept=".csv" onChange={handleFileChange} />
 			<Button onClick={handleFileUpload}>Upload CSV</Button>
 			{uploadSuccess ? <Success>File uploaded successfully!</Success> : null}
-			<Button help={true} onClick={() => setIsModalOpen(true)}>
+			<Button $help={true} onClick={() => setIsModalOpen(true)}>
 				Help
 			</Button>
 			{preview ? (
